@@ -13,6 +13,7 @@ import re
 from telemetry import Telemetry
 
 PROTOCOL = IoTHubTransportProvider.MQTT
+# TO DO -- replace Device ID and Shared Access Key from the information under your device when you press 'connect' at https://iot-final-project.azureiotcentral.com/
 "HostName=iot-final-project.azure-devices.net;DeviceId=nat-raspberry-pi;SharedAccessKey=APJ0BbVo8ov8tUhoICzSpygLodvBhOLXOWkD2ZkfnvM="
 telemetry = Telemetry()
 
